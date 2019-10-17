@@ -4,8 +4,8 @@ import { buildResponse, buildError } from '../utils/response-builders';
 const app = express();
 const port = 5000;
 const cases = [
-    '6667',
-    '666',
+    '1234',
+    '123',
 ];
 
 app.get('/next-case', (req, res) => {
