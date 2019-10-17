@@ -1,4 +1,9 @@
 #### Requirements
+- node (tested with version `10.16.0`, other versions should work as well)
+- npm, at least version `5.2` preferably
+- npx
+
+
 This project uses `npx` to invoke the TypeScript transpiler.
 If you are using `npm` version `5.2` or greater (check with `npm --version`), you are good to go.
 If you have any version before that, you can fix this by running `npm install -g npx`.
